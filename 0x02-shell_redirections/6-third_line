@@ -1,0 +1,2 @@
+#!/bin/bash
+file="iacta;line=$(awk 'NR==3' "$file");echo "$line"
